@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* settaggi generici */
+.relative {
+    position: relative;
+}
+.absolute {
+    position: absolute;
+}
+.flex-end {
+    display: flex;
+    justify-content: flex-end;
+}
+.flex {
+    display: flex;
+}
+.flex-column {
+    flex-direction: column;
+}
+.justify-content-b {
+    justify-content: space-between;
+}
+.justify-content-center {
+    justify-content: center;
+}
+.align-items-center {
+    align-items: center;
+}
+.text-center {
+    text-align: center;
+}
+.wrap {
+    flex-wrap: wrap;
+}
+.overflow-auto {
+    overflow: auto;
+}
+.z-index {
+    z-index: 1;
+}
