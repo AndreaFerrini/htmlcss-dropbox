@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+html {
+    font-family: 'Space Grotesk', sans-serif;
+}
 /* settaggi generici */
 .relative {
     position: relative;
@@ -38,6 +41,23 @@
 .overflow-auto {
     overflow: auto;
 }
-.z-index {
-    z-index: 1;
+/* sezione header */
+nav {
+    height: 70px;
+    background-color: aqua;
+    position: sticky;
+    display: flex;
+}
+.navsx .navdx {
+    margin-top: 50%;
+}
+.navdx {
+    flex-basis: 49%;
+}
+.navsx {
+    flex-basis: 49%;
+}
+a {
+    text-decoration: none;
+    padding: 20px;
 }
