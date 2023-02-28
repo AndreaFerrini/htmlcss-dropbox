@@ -50,6 +50,10 @@ html {
 .overflow-auto {
     overflow: auto;
 }
+.mw-50 {
+    margin: 0 auto;
+    max-width: 50%;
+}
 .mw-80{
     margin: 0 auto;
     max-width: 80%;
@@ -69,6 +73,9 @@ html {
 }
 .mt-90 {
     margin-top: 90px;
+}
+.mr-35 {
+    margin-right: 35%;
 }
 .pt-40 {
     padding-top: 40px;
@@ -104,7 +111,7 @@ nav {
 .navsx {
     flex-basis: 49%;
 }
-a {
+nav div a {
     text-decoration: none;
     padding: 40px 20px;
 }
@@ -128,8 +135,6 @@ nav div a:not(.bottone):hover {
 /* sezione 1 */
 .sezione1 {
     background-color: rgb(180,208,231);
-}
-.contenuto1 {
 }
 h1 {
     font-size: 100px;
@@ -160,6 +165,7 @@ p {
 .b-n-100 {
     bottom: -100px;
 }
+/* sezione 2 main */
 .sezione2 {
     margin-top: 150px;
 }
@@ -191,6 +197,9 @@ hr {
 }
 h5 {
     padding-top: 20px;
+}
+.nodecor {
+    text-decoration: none;
 }
 .fa-check {
     color: rgb(0,93,255);
