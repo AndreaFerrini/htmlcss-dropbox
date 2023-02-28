@@ -32,6 +32,15 @@ html {
 .align-items-center {
     align-items: center;
 }
+.order1 {
+    order: 1;
+}
+.order2 {
+    order: 2;
+}
+.order3 {
+    order: 3;
+}
 .text-center {
     text-align: center;
 }
@@ -55,14 +64,26 @@ html {
 .mt-30 {
     margin-top: 30px;
 }
+.mt-50 {
+    margin-top: 50px;
+}
+.mt-90 {
+    margin-top: 90px;
+}
 .pt-40 {
     padding-top: 40px;
+}
+.pt-100 {
+    padding-top: 100px;
 }
 .pb-40 {
     padding-bottom: 40px;
 }
 .p-40 {
     padding: 40px 0;
+}
+.pl-2 {
+    padding-left: 2em;
 }
 .pl-30 {
     padding-left: 30px;
@@ -97,6 +118,12 @@ nav div a:not(.bottone):hover {
     background-color: rgb(2,98,255);
     color: white;
 }
+.bottonegrigio {
+    border: 1px solid rgb(59,59,59);
+    text-align: left;
+    width: 50%;
+    height: 50px;
+}
 /* inizio main */
 /* sezione 1 */
 .sezione1 {
@@ -113,12 +140,15 @@ h1 {
 .w-70 {
     flex-basis: 70%;
 }
+.w-50 {
+    flex-basis: 50%;
+}
 div.w-70 img {
     width: 100%;
 }
-p,
 span.bottone {
-    margin: 20px 0;
+    width: 65%;
+    text-align: center;
 }
 p {
     font-size: 20px;
@@ -136,6 +166,10 @@ p {
 h2 {
     font-size: 50px;
 }
+hr {
+    max-width: 20%;
+    text-align: left;
+}
 .col-30 {
     flex-basis: 30%;
     border: 1px solid black;
@@ -150,6 +184,14 @@ h2 {
     padding-left: 1em;
     margin: 15px 0;
 }
+#card-end ul li {
+    list-style: none;
+    padding-left: 1em;
+    margin: 15px 0;
+}
 h5 {
     padding-top: 20px;
+}
+.fa-check {
+    color: rgb(0,93,255);
 }
