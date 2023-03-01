@@ -44,11 +44,18 @@ html {
 .text-center {
     text-align: center;
 }
+.text-right {
+    text-align: right;
+}
 .wrap {
     flex-wrap: wrap;
 }
 .overflow-auto {
     overflow: auto;
+}
+.mw-20 {
+    max-width: 20%;
+    margin: 0 auto;
 }
 .mw-50 {
     margin: 0 auto;
@@ -62,8 +69,15 @@ html {
     margin: 0 auto;
     max-width: 70%;
 }
+.mw-100 {
+    margin: 0 auto;
+    max-width: 100%;
+}
 .mb-30 {
     margin-bottom: 30px;
+}
+.mb-80 {
+    margin-bottom: 80px;
 }
 .mt-30 {
     margin-top: 30px;
@@ -89,11 +103,42 @@ html {
 .p-40 {
     padding: 40px 0;
 }
+.p-250 {
+    padding: 250px 0;
+}
 .pl-2 {
     padding-left: 2em;
 }
 .pl-30 {
     padding-left: 30px;
+}
+.pr-30 {
+    padding-right: 30px;
+}
+.h-35 {
+    height: 35px;
+}
+/* bottoni */
+nav div a:not(.bottone):hover {
+    border-bottom: 1px solid black;
+}
+.bottone {
+    padding: 8px;
+}
+.blu {
+    background-color: rgb(2,98,255);
+    color: white;
+}
+.bottonegrigio {
+    border: 1px solid rgb(59,59,59);
+    text-align: left;
+    width: 50%;
+    height: 50px;
+}
+#gratuita {
+    background-color: rgb(255,255,255);
+    color: black;
+    padding: 8px;
 }
 /* sezione header */
 nav {
@@ -114,22 +159,6 @@ nav {
 nav div a {
     text-decoration: none;
     padding: 40px 20px;
-}
-nav div a:not(.bottone):hover {
-    border-bottom: 1px solid black;
-}
-.bottone {
-    padding: 8px;
-}
-.blu {
-    background-color: rgb(2,98,255);
-    color: white;
-}
-.bottonegrigio {
-    border: 1px solid rgb(59,59,59);
-    text-align: left;
-    width: 50%;
-    height: 50px;
 }
 /* inizio main */
 /* sezione 1 */
@@ -180,6 +209,9 @@ hr {
     flex-basis: 30%;
     border: 1px solid black;
 }
+.border {
+    border: 1px solid black;
+}
 #card-top {
     border-bottom: 1px solid black;
     padding: 8px;
@@ -203,4 +235,74 @@ h5 {
 }
 .fa-check {
     color: rgb(0,93,255);
+}
+/* sezione 6 */
+.quadrato {
+    width: calc(100% / 3);
+    height: calc(100vw / 3);
+}
+.quadrato-figli {
+    width: 50%;
+    height: 50%;
+    position: relative;
+}
+.quadrato-figli img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+}
+/* sezione 6 colori quadrati */
+#design1 {
+    background-color: rgb(116, 194, 0);
+    border: 10px solid lightgreen;
+}
+#arizona {
+    background-color: rgb(97,8,43);
+}
+#florida {
+    background-color: rgb(0,147,206);
+}
+#topps {
+    background-color: rgb(255,28,28);
+}
+#design2 {
+    background-color: rgb(245,245,245);
+}
+#bike {
+    background-color: rgb(213,0,31);
+}
+#hearst {
+    background-color: rgb(180,208,231);
+}
+#lonely {
+    background-color: rgb(13,36,129);
+}
+#clear {
+    background-color: rgb(255,216,48);
+}
+/* sezione 7 */
+.sezione7 {
+    background-color: rgb(180,208,231);
+}
+/* inizio footer */
+footer {
+    background-color: rgb(20, 19, 19);
+}
+.colonne {
+    width: calc(100% / 5);
+    color: white;
+}
+#sezione {
+    font-size: 25px;
+    padding-bottom: 20px;
+    font-weight: 700;
+}
+footer div ul li {
+    list-style: none;
+    padding: 10px
+}
+.lingua {
+    color: rgb(118,141,150);
 }
