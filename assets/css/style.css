@@ -29,6 +29,9 @@ html {
 .justify-content-center {
     justify-content: center;
 }
+.justify-content-s {
+    justify-content: space-around;
+}
 .align-items-center {
     align-items: center;
 }
@@ -97,6 +100,9 @@ html {
 .pt-100 {
     padding-top: 100px;
 }
+.pt-250 {
+    padding-top: 250px;
+}
 .pb-40 {
     padding-bottom: 40px;
 }
@@ -134,11 +140,18 @@ nav div a:not(.bottone):hover {
     text-align: left;
     width: 50%;
     height: 50px;
+    text-decoration: none;
 }
 #gratuita {
     background-color: rgb(255,255,255);
     color: black;
     padding: 8px;
+}
+.blu:hover {
+    opacity: 0.8;
+}
+.bottonegrigio:hover {
+    color: rgb(177, 177, 177);
 }
 /* sezione header */
 nav {
@@ -167,6 +180,9 @@ nav div a {
 }
 h1 {
     font-size: 100px;
+}
+.w-20 {
+    flex-basis: 20%;
 }
 .w-30 {
     flex-basis: 30%;
@@ -254,6 +270,7 @@ h5 {
     left: 50%;
     transform: translate(-50%, -50%);
     width: 50%;
+    filter: invert();
 }
 /* sezione 6 colori quadrati */
 #design1 {
@@ -271,6 +288,8 @@ h5 {
 }
 #design2 {
     background-color: rgb(245,245,245);
+    overflow: auto;
+    resize: vertical;
 }
 #bike {
     background-color: rgb(213,0,31);
@@ -307,4 +326,24 @@ footer div ul li {
 }
 .lingua {
     color: rgb(118,141,150);
+}
+/* comandi rotazione freccia e risposta domande frequenti */
+#domande ul li{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.risposta {
+    width: 100%;
+    overflow-y: hidden;
+    transition: 0.4s;
+}
+#rotazione {
+    transition: 0.4s;
+}
+#rotazione:hover {
+    transform: rotate(-180deg);
+}
+#rotazione:hover .risposta {
+    height: 300px;
 }
