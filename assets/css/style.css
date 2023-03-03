@@ -328,21 +328,17 @@ footer div ul li {
     color: rgb(118,141,150);
 }
 /* comandi rotazione freccia e risposta domande frequenti */
-#domande ul li{
-    display: block;
-    width: 100%;
-    height: auto;
-}
 .risposta {
-    width: 100%;
-    overflow-y: hidden;
-    transition: 0.4s;
+    display: none;
+}
+#domanda:hover + .risposta {
+    display: block;
 }
 #rotazione {
     transition: 0.4s;
 }
 #rotazione:hover {
-    transform: rotate(-180deg);
+    transform: rotate(180deg);
 }
 #rotazione:hover .risposta {
     height: 300px;
